@@ -1,5 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Athiti:wght@200;300;400;500;600;700&display=swap');
+
 :root {
   color-scheme: light dark;
   color: #0C0D0E;
   background-color: #F1F2F4;
+  font-family: "Athiti";
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+nav img {
+  width: 150px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 0 10px;
+}
+
+nav button {
+  background-color: #0C0D0E;
+  color: #fff;
+  padding: 5px 15px;
+  font-family: "Athiti";
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
 }
